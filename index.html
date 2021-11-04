@@ -8,10 +8,155 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-
 <body>
-    
+    <header>
+        <img src="img/logoShoes.png.png" alt="Logo Shoes">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">TODOS OS PRODUTOS</a>
+                </li>
 
+                <li>
+                    <a href="#">COLEÇÕES</a>
+                </li>
+
+                <li>
+                    <a href="#">OUTLET</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <main>
+        <div>
+            <h2>Faça parte do nosso time</h2>
+            <form action="">
+                <label>
+                    Nome 
+                    <input type="text" name="nome" id="nome">
+                </label>
+                <label>
+                    E-mail
+                    <input type="email" name="email" id="email">
+                </label>
+                <label>
+                    Telefone
+                    <input type="tel" name="telefone" id="telefone">
+                </label>
+                <label>
+                    Departamentos
+                    <select name="departamentos" id="departamentos">
+                        <option selected disabled>Selecione o departamento</option>
+                        <option value="vendas">Vendas</option>
+                        <option value="logistica">Logistica</option>
+                        <option value="recursosHumanos">Recursos Humanos</option>
+                    </select>
+                    
+                </label>
+
+                <div>
+                    Disponibilidade
+                    <label>
+                        Integral(8h)
+                        <input type="checkbox" name="integral" id="integral">  
+                    </label>
+                    <label>
+                        Meio periodo(4h)
+                        <input type="checkbox" name="meioPeriodo" id="meioPeriodo">
+                    </label>
+                    <label>
+                        Freelancer
+                        <input type="checkbox" name="freelancer" id="freelancer">
+                    </label>
+                </div>
+
+                <div>
+                    Qual a melhor forma para entrarmos em contato com você?
+                    <label><input type="radio" value="1" name="contato" id="contato_email">E-mail</label>
+                    <label><input type="radio" value="2" name="contato" id="contato_ligacao">Ligação</label>
+                    <label><input type="radio" value="3" name="contato" id="contato_whatsapp">WhatsApp</label>
+                </div>
+
+                <label>
+                    Mensagem
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="4"></textarea>
+                </label>
+                <label>
+                    Currículo
+                    <input type="file" name="curriculo" id="curriculo">
+                </label>
+                <button type="submit">enviar</button>
+            </form>
+        </div>
+
+        <div>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum tenetur voluptates ad cumque, quasi cum necessitatibus iste soluta tempore, dolore vero obcaecati totam, aliquid minus adipisci eius similique nesciunt magnam!
+            </p>
+            
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus exercitationem quia tempora quas dolore? Deleniti, ducimus asperiores autem doloribus cumque voluptas eum, velit, aperiam exercitationem vitae quae nesciunt? Ullam, architecto.
+            </p>
+            
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure saepe eos rerum. Consectetur et sapiente eligendi excepturi ullam deleniti delectus culpa illum explicabo doloremque? Modi magni enim iure debitis quod?
+            </p>
+        </div>
+    </main>
+    
+    
+    <footer>
+        <div>
+            <img src="img/logoShoesFooter.png.png" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta natus consequuntur repellat reiciendis sunt. Vero!</p>
+        </div>
+
+        <div>
+            <h3>categorias</h3>
+            <ul>
+                <li>
+                    <a href="#">sandálias</a>
+                </li>
+                <li>
+                    <a href="#">botas</a>
+                </li>
+                <li>
+                    <a href="#">tênis</a>
+                </li>
+                <li>
+                    <a href="#">oxford</a>
+                </li>
+                <li>
+                    <a href="#">coturnos</a>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>institucional</h3>
+            <ul>
+                <li>
+                    <a href="#">sobre nós</a>
+                </li>
+                <li>
+                    <a href="#">perguntas frequentes</a>
+                </li>
+                <li>
+                    <a href="#">politica de privacidade</a>
+                </li>
+                <li>
+                    <a href="#">rastreamento de pedidos</a>
+                </li>
+                <li>
+                    <a href="#">fale conosco</a>
+                </li>
+            </ul>
+        </div>
+      
+    </footer>
 
 </body>
 </html>
