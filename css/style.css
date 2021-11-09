@@ -16,6 +16,7 @@ header{
     position: relative;
     width: 100%;
     
+    
 }
 
 header > img {
@@ -62,9 +63,63 @@ header > nav > ul > li > a {
 
 
 
-
-
-footer img {
+footer{
+    background: #C2185B;
+    position: relative;
+    
+    height: 200px;
+}
+footer > div > img {
+    position: absolute;
     width: 233px;
     height: 123px;
+    margin-left: 90px;
+    margin-top: 15px;
+    
 }
+.footerP{
+    position: absolute;
+    color: #FFF;
+    top: 101px;
+    left: 90px;
+    width: 300px;
+    
+    
+}
+.footerCategorias{
+    position: absolute;
+    right: 50%;
+    top: 25%
+}
+.footerInstitucional{
+    position: absolute;
+    right: 25%;
+    top: 25%
+}
+footer > div > h3 {
+    color: #FFF;
+    right: px;
+    top: px;
+    position: absolute;
+}
+.h3cate{
+    position: absolute;
+    right: -56px ;
+    top: -48px;
+    font-size: 25px;
+}
+.h3inst{
+    position: absolute;
+    right: 31px;
+    top: -48px;
+    font-size: 25px;
+}
+footer > div > ul {
+    list-style: none;
+}
+footer > div > ul > li > a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
