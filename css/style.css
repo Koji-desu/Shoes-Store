@@ -54,12 +54,113 @@ header > nav > ul > li > a {
 }
 
 
+main{
+    height: 1000px;
+    position: relative;
+    display: inline-block;
+    
+    padding: 10px;
+    width: 100%;
+    
+}
+
+main > div {
+    
+    width: 50%;
+    height: 100%;
+}
+
+main > div > p{
+    
+    margin-top: 69px;
+    width: 585px;
+    text-align: center;
+    margin-left: 210px;
+    font-size: 25px;
+    
+}
+.ladoDireito{
+    position: absolute;
+   
+    right: 0px;
+    top: 100px;
+    height: 100%;
+    color:  #575757;
+    
+}
+
+main > div > h2{
+    margin-left: 130px; 
+    margin-top: 50px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+
+color: #575757;
+}
+
+form{
+    display: inline-block;
+    margin-top: -15px;
+    margin-left: 130px;
+}
+main > div > form > label{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 39px;
+}
+
+#nome{
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;    
+}
+
+#email{
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;   
+}
+
+#telefone{
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;   
+}
+
+#departamentos{
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+}
+
+#dispCheck{
+    margin-top: 39px;
+    margin-bottom: 39px;
+}
 
 
 
 
 
 
+
+#mensagem{
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+}
+
+button{
+    color: #FFF;
+    width: 860px;
+    height: 33px;
+    background-color: #C2185B;
+    margin-top: 30px;
+}
 
 
 
